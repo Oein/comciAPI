@@ -1,6 +1,5 @@
 import axios from "axios";
 import { transfrom2Comci } from "./transform2comci";
-import { writeFileSync } from "fs";
 
 export interface 교과목 {
   교과명: string;
