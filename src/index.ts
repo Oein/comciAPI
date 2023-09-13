@@ -82,11 +82,11 @@ export async function 학교정보(id: number) {
   const 마지막_수정_날짜 = 마지막_수정일_문자열
     .split(" ")[0]
     .split("-")
-    .map(parseInt);
+    .map((j) => parseInt(j));
   const 마지막_수정_시간 = 마지막_수정일_문자열
     .split(" ")[1]
     .split(":")
-    .map(parseInt);
+    .map((j) => parseInt(j));
   const 마지막_수정일 = new Date(
     마지막_수정_날짜[0],
     마지막_수정_날짜[1] - 1,
