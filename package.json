@@ -6,5 +6,7 @@
     "@types/node": "^20.6.0",
     "playwright-core": "^1.37.1",
     "typescript": "^5.2.2"
-  }
+  },
+  "name": "comci-api",
+  "version": "1.0.0"
 }
